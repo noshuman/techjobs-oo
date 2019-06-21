@@ -108,9 +108,7 @@ public class JobData {
         return locations;
     }
 
-    public JobFieldData<CoreCompetency> getCoreCompetencies() {
-        return coreCompetencies;
-    }
+    public JobFieldData<CoreCompetency> getCoreCompetencies() { return coreCompetencies; }
 
     public JobFieldData<PositionType> getPositionTypes() {
         return positionTypes;
